@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<link rel='stylesheet' href='fabric/fabric.min.css' />
+<link rel='stylesheet' href='fabric/fabric.components.min.css' />
+<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+<script type='text/javascript' src='fabric/jquery.fabric.min.js' ></script>
+<!--Correct paths as necessary-->
+
+<style type='text/css'>
+.ms-Grid-col{
+    border:1px solid black;
+}
+.header, .footer{
+    background-color:gray;
+}
+</style>
+</head>
+<body>
+<div class='ms-Grid'>
+        <!-- Grid rows go here, use snippet uif-gridRow  -->
+       <div class='ms-Grid-row'>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>1</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>2</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>3</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>4</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>5</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>6</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>7</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>8</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>9</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>10</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>11</div>
+           <div class='ms-Grid-col ms-u-sm1 refCol'>12</div>
+       </div>
+       <hr /><br />
+       <div class='ms-Grid-row'> 
+           <div class='ms-Grid-col ms-u-sm12 header'>Header</div>  
+       </div> 
+       <div class='ms-Grid-row'> 
+           <div class='ms-Grid-col'>Left Bar</div>          
+           <div class='ms-Grid-col'></div>
+           <div class='ms-Grid-col'>Right Bar</div>
+       </div>
+       <div class='ms-Grid-row'> 
+           <div class='ms-Grid-col ms-u-sm12 footer'>Footer</div>  
+       </div>
+</div>
+
+</body>
+</html>
